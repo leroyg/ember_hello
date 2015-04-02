@@ -6,4 +6,6 @@ var Router = Ember.Router.extend({
 });
 
 export default Router.map(function() {
+  this.resource('Hello', {path: '/'});
+  this.resource('Later');
 });
